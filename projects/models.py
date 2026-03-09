@@ -1,6 +1,6 @@
 from django.db import models
 from accounts import models as accounts
-from teams import Team
+from teams.models import Team
 STATUS_CHOICES = [
     ("pending","Pending"),
     ("in_progress","In Progress"),
